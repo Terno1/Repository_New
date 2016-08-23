@@ -5,5 +5,5 @@ def check(text):
 	
 print (check('abc') == False)
 print (check('adcdefghijklmnopqrstuvwxyz') == True)
-print (check('ABCDEFGHIJKLMOPQRSTUVWXYZ') == True)
+print (check('ABCDEFGHIJKLMNOPQRSTUVWXYZ') == True)
 print (check('Quick brown fox jumps over the lazy dog') == True)
