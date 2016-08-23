@@ -4,5 +4,6 @@ def check(text):
     return set(text.lower()).issuperset(set(az))
 	
 print (check('abc') == False)
-print (check('adcdefghjiklmnopqrstuvwxyz') == True)
-print (check('ABCDEFGHJIKLMOPQRSTUVWXYZ') == True)
+print (check('adcdefghijklmnopqrstuvwxyz') == True)
+print (check('ABCDEFGHIJKLMOPQRSTUVWXYZ') == True)
+print (check('Quick brown fox jumps over the lazy dog') == True)
