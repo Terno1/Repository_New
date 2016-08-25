@@ -1,4 +1,4 @@
-# Copyriight unknown 2016
+# Copyriight unknown 2016 #
 from string import ascii_lowercase as az
 
 def check(text):
